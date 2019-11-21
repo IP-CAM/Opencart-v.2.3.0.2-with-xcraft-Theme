@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<code>footerinf/code>
+	<name>FooterInf</name>
+	<version>1.0</version>
+	<author></author>
+	<link></link>
+	<file path="catalog/controller/common/footer.php">
+		<operation>
+			<search><![CDATA[
+				$this->load->language('common/footer');
+			]]></search>
+			<add position="before"><![CDATA[
+
+					if (is_file(DIR_IMAGE . $this->config->get('config_logo'))) {
+						$data['logo'] = $server . 'image/' . $this->config->get('config_logo');
+					} else {
+						$data['logo'] = '';
+					}
+
+					$data['telephone'] = $this->config->get('config_telephone');
+
+			]]></add>
+		</operation>
+	</file>  
+</modification>

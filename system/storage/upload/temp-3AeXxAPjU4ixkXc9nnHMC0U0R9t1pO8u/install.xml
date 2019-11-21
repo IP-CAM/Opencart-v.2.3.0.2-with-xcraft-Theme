@@ -1,0 +1,103 @@
+<modification>
+	<name>Правильные хлебные крошки</name>
+	<version>2.2.0.0</version>
+	<link>http://brandsweb.ru</link>
+	<author>Slait</author>
+	<code>breadcrumbBW</code>
+	<file path="catalog/view/theme/*/template/product/{category,compare,manufacturer_info,manufacturer_list,product,search,special}*.tpl">
+		<operation error="skip">
+			<search><![CDATA[<ul class="breadcrumb">]]></search>
+			<add position="replace" offset="4"><![CDATA[ 
+				<ul class="breadcrumb" >
+		<?php
+		$breadcount =count($breadcrumbs)-1;
+		foreach ($breadcrumbs as $iterator => $breadcrumb) {
+		if ($iterator != $breadcount) {
+		echo '<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="'.$breadcrumb['href'].'" itemprop="url"><span itemprop="title">'.$breadcrumb['text'].'</span></a></li>';
+		} else {
+		echo '<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="end"><a href="'.$breadcrumb['href'].'" itemprop="url"></a><span itemprop="title">'.$breadcrumb['text'].'</span></li>';
+		}
+		} ?>
+    	</ul>
+			]]></add>
+	  </operation> 
+	</file>
+	
+	<file path="catalog/view/theme/*/template/information/{information,contact,sitemap}*.tpl">
+		<operation error="skip">
+			<search><![CDATA[<ul class="breadcrumb">]]></search>
+			<add position="replace" offset="4"><![CDATA[ 
+				<ul class="breadcrumb" >
+		<?php
+		$breadcount =count($breadcrumbs)-1;
+		foreach ($breadcrumbs as $iterator => $breadcrumb) {
+		if ($iterator != $breadcount) {
+		echo '<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="'.$breadcrumb['href'].'" itemprop="url"><span itemprop="title">'.$breadcrumb['text'].'</span></a></li>';
+		} else {
+		echo '<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="end"><a href="'.$breadcrumb['href'].'" itemprop="url"></a><span itemprop="title">'.$breadcrumb['text'].'</span></li>';
+		}
+		} ?>
+    	</ul>
+			]]></add>
+	  </operation> 
+	</file>
+	
+	<file path="catalog/view/theme/*/template/error/not_found.tpl">
+		<operation error="skip">
+			<search><![CDATA[<ul class="breadcrumb">]]></search>
+			<add position="replace" offset="4"><![CDATA[ 
+				<ul class="breadcrumb" >
+		<?php
+		$breadcount =count($breadcrumbs)-1;
+		foreach ($breadcrumbs as $iterator => $breadcrumb) {
+		if ($iterator != $breadcount) {
+		echo '<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="'.$breadcrumb['href'].'" itemprop="url"><span itemprop="title">'.$breadcrumb['text'].'</span></a></li>';
+		} else {
+		echo '<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="end"><a href="'.$breadcrumb['href'].'" itemprop="url"></a><span itemprop="title">'.$breadcrumb['text'].'</span></li>';
+		}
+		} ?>
+    	</ul>
+			]]></add>
+	  </operation> 
+	</file>
+	
+	<file path="catalog/view/theme/*/template/common/success.tpl">
+		<operation error="skip">
+			<search><![CDATA[<ul class="breadcrumb">]]></search>
+			<add position="replace" offset="4"><![CDATA[ 
+				<ul class="breadcrumb" >
+		<?php
+		$breadcount =count($breadcrumbs)-1;
+		foreach ($breadcrumbs as $iterator => $breadcrumb) {
+		if ($iterator != $breadcount) {
+		echo '<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="'.$breadcrumb['href'].'" itemprop="url"><span itemprop="title">'.$breadcrumb['text'].'</span></a></li>';
+		} else {
+		echo '<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="end"><a href="'.$breadcrumb['href'].'" itemprop="url"></a><span itemprop="title">'.$breadcrumb['text'].'</span></li>';
+		}
+		} ?>
+    	</ul>
+			]]></add>
+	  </operation> 
+	</file>
+	
+	<file path="catalog/view/theme/*/template/checkout/{cart,checkout}*.tpl">
+		<operation error="skip">
+			<search><![CDATA[<ul class="breadcrumb">]]></search>
+			<add position="replace" offset="4"><![CDATA[ 
+				<ul class="breadcrumb" >
+		<?php
+		$breadcount =count($breadcrumbs)-1;
+		foreach ($breadcrumbs as $iterator => $breadcrumb) {
+		if ($iterator != $breadcount) {
+		echo '<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="'.$breadcrumb['href'].'" itemprop="url"><span itemprop="title">'.$breadcrumb['text'].'</span></a></li>';
+		} else {
+		echo '<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="end"><a href="'.$breadcrumb['href'].'" itemprop="url"></a><span itemprop="title">'.$breadcrumb['text'].'</span></li>';
+		}
+		} ?>
+    	</ul>
+			]]></add>
+	  </operation> 
+	</file>
+	
+
+</modification>

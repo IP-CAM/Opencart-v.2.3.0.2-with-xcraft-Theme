@@ -1,0 +1,48 @@
+[05-Nov-2019 22:45:02 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2 &quot;No such file or directory&quot;) in /home2/xcraftco/public_html/system/library/db/mysqli.php on line 7
+[05-Nov-2019 22:45:02 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home2/xcraftco/public_html/system/library/db/mysqli.php on line 10
+[05-Nov-2019 22:45:02 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home2/xcraftco/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home2/xcraftco/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'xcraftco_panda', '147258693zxc', 'xcraftco_corp', NULL)
+#1 /home2/xcraftco/public_html/system/storage/modification/system/config/catalog.php(29): DB->__construct('mysqli', 'localhost', 'xcraftco_panda', '147258693zxc', 'xcraftco_corp')
+#2 /home2/xcraftco/public_html/system/storage/modification/system/library/config.php(23): require('/home2/xcraftco...')
+#3 /home2/xcraftco/public_html/system/framework.php(8): Config->load('catalog')
+#4 /home2/xcraftco/public_html/system/startup.php(124): require_once('/home2/xcraftco...')
+#5 /home2/xcraftco/public_html/index.php(19): start('catalog')
+#6 {main}
+  thrown in /home2/xcraftco/public_html/system/library/db/mysqli.php on line 10
+[05-Nov-2019 22:45:04 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2 &quot;No such file or directory&quot;) in /home2/xcraftco/public_html/system/library/db/mysqli.php on line 7
+[05-Nov-2019 22:45:04 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home2/xcraftco/public_html/system/library/db/mysqli.php on line 10
+[05-Nov-2019 22:45:04 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home2/xcraftco/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home2/xcraftco/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'xcraftco_panda', '147258693zxc', 'xcraftco_corp', NULL)
+#1 /home2/xcraftco/public_html/system/storage/modification/system/config/catalog.php(29): DB->__construct('mysqli', 'localhost', 'xcraftco_panda', '147258693zxc', 'xcraftco_corp')
+#2 /home2/xcraftco/public_html/system/storage/modification/system/library/config.php(23): require('/home2/xcraftco...')
+#3 /home2/xcraftco/public_html/system/framework.php(8): Config->load('catalog')
+#4 /home2/xcraftco/public_html/system/startup.php(124): require_once('/home2/xcraftco...')
+#5 /home2/xcraftco/public_html/index.php(19): start('catalog')
+#6 {main}
+  thrown in /home2/xcraftco/public_html/system/library/db/mysqli.php on line 10
+[13-Nov-2019 00:42:04 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2 &quot;No such file or directory&quot;) in /home2/xcraftco/public_html/system/library/db/mysqli.php on line 7
+[13-Nov-2019 00:42:04 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home2/xcraftco/public_html/system/library/db/mysqli.php on line 10
+[13-Nov-2019 00:42:04 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home2/xcraftco/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home2/xcraftco/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'xcraftco_panda', '147258693zxc', 'xcraftco_corp', NULL)
+#1 /home2/xcraftco/public_html/system/storage/modification/system/config/catalog.php(29): DB->__construct('mysqli', 'localhost', 'xcraftco_panda', '147258693zxc', 'xcraftco_corp')
+#2 /home2/xcraftco/public_html/system/storage/modification/system/library/config.php(23): require('/home2/xcraftco...')
+#3 /home2/xcraftco/public_html/system/framework.php(8): Config->load('catalog')
+#4 /home2/xcraftco/public_html/system/startup.php(124): require_once('/home2/xcraftco...')
+#5 /home2/xcraftco/public_html/index.php(19): start('catalog')
+#6 {main}
+  thrown in /home2/xcraftco/public_html/system/library/db/mysqli.php on line 10
+[13-Nov-2019 00:42:08 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2 &quot;No such file or directory&quot;) in /home2/xcraftco/public_html/system/library/db/mysqli.php on line 7
+[13-Nov-2019 00:42:08 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home2/xcraftco/public_html/system/library/db/mysqli.php on line 10
+[13-Nov-2019 00:42:08 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home2/xcraftco/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home2/xcraftco/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'xcraftco_panda', '147258693zxc', 'xcraftco_corp', NULL)
+#1 /home2/xcraftco/public_html/system/storage/modification/system/config/catalog.php(29): DB->__construct('mysqli', 'localhost', 'xcraftco_panda', '147258693zxc', 'xcraftco_corp')
+#2 /home2/xcraftco/public_html/system/storage/modification/system/library/config.php(23): require('/home2/xcraftco...')
+#3 /home2/xcraftco/public_html/system/framework.php(8): Config->load('catalog')
+#4 /home2/xcraftco/public_html/system/startup.php(124): require_once('/home2/xcraftco...')
+#5 /home2/xcraftco/public_html/index.php(19): start('catalog')
+#6 {main}
+  thrown in /home2/xcraftco/public_html/system/library/db/mysqli.php on line 10

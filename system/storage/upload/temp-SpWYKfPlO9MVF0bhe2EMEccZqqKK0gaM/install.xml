@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<code>HeaderContacts</code>
+	<name>Contacts in Header</name>
+	<version>1.0</version>
+	<author>Panda</author>
+	<link></link>
+	<file path="catalog/controller/common/header.php">
+		<operation>
+			<search><![CDATA[
+				$data['name'] = $this->config->get('config_name');
+			]]></search>
+			<add position="after"><![CDATA[
+				
+		$data['text_location'] = $this->language->get('text_location');
+		$data['text_store'] = $this->language->get('text_store');
+		$data['text_contact'] = $this->language->get('text_contact');
+		$data['text_address'] = $this->language->get('text_address');
+		$data['text_telephone'] = $this->language->get('text_telephone');
+		$data['text_fax'] = $this->language->get('text_fax');
+		$data['text_open'] = $this->language->get('text_open');
+		$data['text_comment'] = $this->language->get('text_comment');
+
+		
+		$this->load->model('tool/image');
+
+		if ($this->config->get('config_image')) {
+			$data['image'] = $this->model_tool_image->resize($this->config->get('config_image'), $this->config->get($this->config->get('config_theme') . '_image_location_width'), $this->config->get($this->config->get('config_theme') . '_image_location_height'));
+		} else {
+			$data['image'] = false;
+		}
+
+		$this->load->model('localisation/location');
+
+		foreach((array)$this->config->get('config_location') as $location_id) {
+			$location_info = $this->model_localisation_location->getLocation($location_id);
+
+			if ($location_info) {
+				if ($location_info['image']) {
+					$image = $this->model_tool_image->resize($location_info['image'], $this->config->get($this->config->get('config_theme') . '_image_location_width'), $this->config->get($this->config->get('config_theme') . '_image_location_height'));
+				} else {
+					$image = false;
+				}
+
+				$data['locations'][] = array(
+					'location_id' => $location_info['location_id'],
+					'name'        => $location_info['name'],
+					'address'     => nl2br($location_info['address']),
+					'geocode'     => $location_info['geocode'],
+					'telephone'   => $location_info['telephone'],
+					'fax'         => $location_info['fax'],
+					'image'       => $image,
+					'open'        => nl2br($location_info['open']),
+					'comment'     => $location_info['comment']
+				);
+			}
+		}
+
+			]]></add>
+		</operation>
+	</file>  
+</modification>

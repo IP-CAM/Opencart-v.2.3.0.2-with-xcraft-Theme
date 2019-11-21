@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<code>HeaderContacts</code>
+	<name>Contacts in Header</name>
+	<version>1.0</version>
+	<author>Panda</author>
+	<link></link>
+	<file path="catalog/controller/common/header.php">
+		<operation>
+			<search><![CDATA[
+				$this->load->language('common/header');
+			]]></search>
+			<add position="after"><![CDATA[
+
+		$this->load->language('information/contact');
+
+		$data['text_open'] = $this->language->get('text_open');
+		$data['text_comment'] = $this->language->get('text_comment');
+		
+        $data['store'] = $this->config->get('config_name');
+		$data['address'] = nl2br($this->config->get('config_address'));
+
+		$data['telephone'] = $this->config->get('config_telephone');
+	
+		$data['open'] = nl2br($this->config->get('config_open'));
+		$data['comment'] = $this->config->get('config_comment');
+
+
+			]]></add>
+		</operation>
+	</file>  
+</modification>
