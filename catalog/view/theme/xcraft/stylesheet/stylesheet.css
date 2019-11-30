@@ -211,10 +211,11 @@ header .nav-inf li:nth-child(3) {
   padding-left: 5px; }
 
 a.list-group-item, button.list-group-item {
-  color: #fff; }
+  color: #fff; 
+  background-color: #0cadef;}
 
 a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
-  background: #0cadef;
+  background: #1a6e92;
   color: #fff;
   text-indent: 5px; }
 
@@ -328,7 +329,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
   width: 100%;
   padding-left: 10px; }
 #column-left .cat-item {
-  background-color: #0cadef;
+  background-color: #1a6e92;
   color: #fff; }
 #column-left .child-item {
   border-top: 1px transparent solid; }
