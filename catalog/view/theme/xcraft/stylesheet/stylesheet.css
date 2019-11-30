@@ -335,7 +335,10 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
   border-top: 1px transparent solid; 
   background-color: #fff;
   color: #385ade;}
-
+#column-left .child-item > div > blockquote ul li:hover {
+    background-color: #385ade;
+    color: #fff;
+    transform: translateY(-5px); }
 .footer-cnt {
   background-color: #385ade;
   margin-top: 40px;
