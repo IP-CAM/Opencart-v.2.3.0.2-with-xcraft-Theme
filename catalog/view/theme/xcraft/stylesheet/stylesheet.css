@@ -144,7 +144,7 @@ li {
   background-color: #0cadef; }
 
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
-  background-color: #95b6c4; }
+  background-color: #1a6e92; }
 
 header .row {
   text-align: center;
@@ -203,7 +203,7 @@ header .nav-inf li:nth-child(3) {
     border-radius: 0; }
 
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
-  background-color: #95b6c4;
+  background-color: #1a6e92;
   color: #fff;
   border: none;
   text-indent: 5px;
@@ -211,7 +211,7 @@ header .nav-inf li:nth-child(3) {
   padding-left: 5px; }
 
 a.list-group-item, button.list-group-item {
-  color: #0cadef; }
+  color: #fff; }
 
 a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
   background: #0cadef;
@@ -452,7 +452,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
   background-color: #0cadef;
   transition: background 0.25s ease; }
   .btn-primary:hover, .btn-primary:focus {
-    background: #95b6c4;
+    background: #1a6e92;
     border: 1px #0cadef solid; }
 
 #tab-description {
@@ -615,7 +615,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
   border-color: #0cadef; }
   .pagination > li:first-child > span:hover, .pagination > li:last-child > span:hover {
     background-color: #84abbb;
-    border-color: #95b6c4;
+    border-color: #1a6e92;
     color: #fff; }
 
 .result {

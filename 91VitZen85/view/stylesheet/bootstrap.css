@@ -3958,7 +3958,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
     border-bottom-left-radius: 3px; }
 
 a.list-group-item, button.list-group-item {
-  color: #555; }
+  background-color: #0cadef;}
   a.list-group-item .list-group-item-heading, button.list-group-item .list-group-item-heading {
     color: #333; }
   a.list-group-item:hover, button.list-group-item:hover, a.list-group-item:focus, button.list-group-item:focus {
