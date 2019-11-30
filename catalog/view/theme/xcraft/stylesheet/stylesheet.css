@@ -332,7 +332,9 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
   background-color: #1a6e92;
   color: #fff; }
 #column-left .child-item {
-  border-top: 1px transparent solid; }
+  border-top: 1px transparent solid; 
+  background-color: #fff;
+  color: #385ade;}
 
 .footer-cnt {
   background-color: #385ade;
