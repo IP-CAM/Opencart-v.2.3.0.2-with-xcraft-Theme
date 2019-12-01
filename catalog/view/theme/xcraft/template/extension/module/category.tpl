@@ -12,7 +12,7 @@
   <?php } ?>
   <?php } ?>
   <?php } else { ?>
-  <a href="<?php echo $category['href']; ?>" class="list-group-item magic-hover"><?php echo $category['name']; ?></a>
+  <a href="<?php echo $category['href']; ?>" class="list-group-item parrent-item  magic-hover"><?php echo $category['name']; ?></a>
   <?php } ?>
   <?php } ?>
 </div>
