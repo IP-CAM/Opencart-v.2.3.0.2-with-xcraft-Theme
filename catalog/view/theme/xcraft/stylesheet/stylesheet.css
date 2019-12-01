@@ -144,7 +144,7 @@ li {
   background-color: #1a73e8; }
 
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
-  background-color: #1a6e92; }
+  background-color: #1765ca; }
 
 header .row {
   text-align: center;
@@ -203,7 +203,7 @@ header .nav-inf li:nth-child(3) {
     border-radius: 0; }
 
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
-  background-color: #1a6e92;
+  background-color: #1765ca;
   color: #fff;
   border: none;
   text-indent: 5px;
@@ -215,7 +215,7 @@ a.list-group-item, button.list-group-item {
   background-color: #fff;}
 
 a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
-  background: #1a6e92;
+  background: #1765ca;
   color: #fff;
   text-indent: 5px; }
 
@@ -329,7 +329,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
   width: 100%;
   padding-left: 10px; }
 #column-left .cat-item {
-  background-color: #1a6e92;
+  background-color: #1765ca;
   color: #fff; }
 #column-left .child-item {
   border-top: 1px transparent solid; }
@@ -456,7 +456,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
   background-color: #1a73e8;
   transition: background 0.25s ease; }
   .btn-primary:hover, .btn-primary:focus {
-    background: #1a6e92;
+    background: #1765ca;
     border: 1px #1a73e8 solid; }
 
 #tab-description {
@@ -619,7 +619,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
   border-color: #1a73e8; }
   .pagination > li:first-child > span:hover, .pagination > li:last-child > span:hover {
     background-color: #84abbb;
-    border-color: #1a6e92;
+    border-color: #1765ca;
     color: #fff; }
 
 .result {
