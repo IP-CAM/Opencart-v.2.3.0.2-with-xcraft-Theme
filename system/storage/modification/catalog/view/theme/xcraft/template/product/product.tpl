@@ -244,7 +244,7 @@
           <?php } ?>
         </div>
         <div class="col-sm-12">
-          <ul class="nav nav-tabs">e
+          <ul class="nav nav-tabs">
             <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
             <?php if ($attribute_groups) { ?>
             <li><a href="#tab-specification" data-toggle="tab"><?php echo $tab_attribute; ?></a></li>
