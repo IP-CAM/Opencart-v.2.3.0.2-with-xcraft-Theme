@@ -95,8 +95,7 @@ var google_remarketing_only = false;
             <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?> - отладочные платы" alt="<?php /*echo $name; */?> development board kit " class="img-responsive" /></a>
             <?php } else { ?>
             <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
-            <?php } ?>
-            <p><?php echo $text_magazin; ?></p>
+            <?php } ?>            
           </div>
         </div>
         <div class="col-sm-6">
