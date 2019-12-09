@@ -148,8 +148,7 @@ li {
 
 header .row {
   text-align: center;
-  margin: 10px 0;
-  padding: 10px 0; }
+  }
   header .row .head-telephone {
     display: block;
     list-style: none;
