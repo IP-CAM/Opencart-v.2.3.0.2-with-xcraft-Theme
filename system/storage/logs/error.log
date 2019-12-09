@@ -1464,3 +1464,35 @@
 2019-12-06 16:13:07 - PHP Notice:  Undefined index: meta_keyword in /home2/xcraftco/public_html/system/storage/modification/admin/view/template/catalog/product_form.tpl on line 95
 2019-12-06 16:13:07 - PHP Notice:  Undefined index: tag in /home2/xcraftco/public_html/system/storage/modification/admin/view/template/catalog/product_form.tpl on line 101
 2019-12-07 14:12:40 - PHP Notice:  Undefined index: config_error_filename in /home2/xcraftco/public_html/system/storage/modification/admin/controller/setting/setting.php on line 1278
+2019-12-07 14:47:09 - PHP Notice:  Undefined index: config_error_filename in /home2/xcraftco/public_html/system/storage/modification/admin/controller/setting/setting.php on line 1278
+2019-12-07 14:48:24 - PHP Notice:  Undefined index: config_error_filename in /home2/xcraftco/public_html/system/storage/modification/admin/controller/setting/setting.php on line 1278
+2019-12-07 14:48:33 - PHP Notice:  Undefined index: config_error_filename in /home2/xcraftco/public_html/system/storage/modification/admin/controller/setting/setting.php on line 1278
+2019-12-07 14:48:33 - PHP Warning:  implode(): Invalid arguments passed in /home2/xcraftco/public_html/91VitZen85/controller/common/header.php on line 58
+2019-12-07 14:48:33 - PHP Warning:  implode(): Invalid arguments passed in /home2/xcraftco/public_html/91VitZen85/controller/common/header.php on line 59
+2019-12-07 14:48:33 - PHP Warning:  implode(): Invalid arguments passed in /home2/xcraftco/public_html/91VitZen85/controller/common/header.php on line 62
+2019-12-07 14:48:33 - PHP Warning:  implode(): Invalid arguments passed in /home2/xcraftco/public_html/91VitZen85/controller/common/header.php on line 63
+2019-12-07 14:48:33 - PHP Warning:  implode(): Invalid arguments passed in /home2/xcraftco/public_html/system/storage/modification/admin/controller/common/column_left.php on line 856
+2019-12-07 14:48:33 - PHP Warning:  implode(): Invalid arguments passed in /home2/xcraftco/public_html/system/storage/modification/admin/controller/common/column_left.php on line 864
+2019-12-09 7:44:59 - PHP Notice:  Undefined index: manufacturer_id in /home2/xcraftco/public_html/system/storage/modification/admin/model/catalog/product.php on line 136
+2019-12-09 7:44:59 - PHP Notice:  Undefined index: points in /home2/xcraftco/public_html/system/storage/modification/admin/model/catalog/product.php on line 136
+2019-12-09 7:44:59 - PHP Notice:  Undefined index: weight in /home2/xcraftco/public_html/system/storage/modification/admin/model/catalog/product.php on line 136
+2019-12-09 7:44:59 - PHP Notice:  Undefined index: weight_class_id in /home2/xcraftco/public_html/system/storage/modification/admin/model/catalog/product.php on line 136
+2019-12-09 7:44:59 - PHP Notice:  Undefined index: status in /home2/xcraftco/public_html/system/storage/modification/admin/model/catalog/product.php on line 136
+2019-12-09 7:44:59 - PHP Notice:  Undefined index: sort_order in /home2/xcraftco/public_html/system/storage/modification/admin/model/catalog/product.php on line 136
+2019-12-09 7:45:38 - PHP Notice:  Undefined index: manufacturer_id in /home2/xcraftco/public_html/system/storage/modification/admin/model/catalog/product.php on line 136
+2019-12-09 7:45:38 - PHP Notice:  Undefined index: points in /home2/xcraftco/public_html/system/storage/modification/admin/model/catalog/product.php on line 136
+2019-12-09 7:45:38 - PHP Notice:  Undefined index: weight_class_id in /home2/xcraftco/public_html/system/storage/modification/admin/model/catalog/product.php on line 136
+2019-12-09 7:45:38 - PHP Notice:  Undefined index: status in /home2/xcraftco/public_html/system/storage/modification/admin/model/catalog/product.php on line 136
+2019-12-09 7:45:38 - PHP Notice:  Undefined index: sort_order in /home2/xcraftco/public_html/system/storage/modification/admin/model/catalog/product.php on line 136
+2019-12-09 7:47:02 - PHP Notice:  Undefined index: config_error_filename in /home2/xcraftco/public_html/system/storage/modification/admin/controller/setting/setting.php on line 1278
+2019-12-09 7:47:11 - PHP Notice:  Undefined index: meta_title in /home2/xcraftco/public_html/system/storage/modification/admin/controller/catalog/product.php on line 1342
+2019-12-09 7:47:11 - PHP Notice:  Undefined index: model in /home2/xcraftco/public_html/system/storage/modification/admin/controller/catalog/product.php on line 1347
+2019-12-09 7:47:11 - PHP Notice:  Undefined index: keyword in /home2/xcraftco/public_html/system/storage/modification/admin/controller/catalog/product.php on line 1351
+2019-12-09 7:47:11 - PHP Notice:  Undefined index: meta_title in /home2/xcraftco/public_html/system/storage/modification/admin/view/template/catalog/product_form.tpl on line 80
+2019-12-09 7:47:11 - PHP Notice:  Undefined index: meta_description in /home2/xcraftco/public_html/system/storage/modification/admin/view/template/catalog/product_form.tpl on line 89
+2019-12-09 7:47:11 - PHP Notice:  Undefined index: meta_keyword in /home2/xcraftco/public_html/system/storage/modification/admin/view/template/catalog/product_form.tpl on line 95
+2019-12-09 7:47:11 - PHP Notice:  Undefined index: tag in /home2/xcraftco/public_html/system/storage/modification/admin/view/template/catalog/product_form.tpl on line 101
+2019-12-09 7:50:16 - PHP Notice:  Undefined index: config_error_filename in /home2/xcraftco/public_html/system/storage/modification/admin/controller/setting/setting.php on line 1278
+2019-12-09 7:50:50 - PHP Notice:  Undefined index: config_error_filename in /home2/xcraftco/public_html/system/storage/modification/admin/controller/setting/setting.php on line 1278
+2019-12-09 7:51:56 - PHP Notice:  Undefined index: config_error_filename in /home2/xcraftco/public_html/system/storage/modification/admin/controller/setting/setting.php on line 1278
+2019-12-09 7:52:18 - PHP Notice:  Undefined index: config_error_filename in /home2/xcraftco/public_html/system/storage/modification/admin/controller/setting/setting.php on line 1278
