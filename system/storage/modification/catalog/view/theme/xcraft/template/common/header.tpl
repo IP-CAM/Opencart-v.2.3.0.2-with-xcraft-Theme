@@ -95,7 +95,7 @@ var google_remarketing_only = false;
             <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?> - отладочные платы" alt="<?php /*echo $name; */?> development board kit " class="img-responsive" /></a>
             <?php } else { ?>
             <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
-            <?php } ?>            
+            <?php } ?>        
           </div>
         </div>
         <div class="col-sm-6">
@@ -110,16 +110,9 @@ var google_remarketing_only = false;
               </ul>
           </div>
           <div class="inform-item">
-                <strong><?php echo $store; ?></strong><br />
-                <address><?php echo $address; ?></address>
+              <address><?php echo $address; ?></address>
           </div>  
-           <div class="inform-item our-work">  
-                <?php if ($open) { ?>
-                <!--<strong><?php echo $text_open; ?></strong><br />-->
-                <?php echo $open; ?><br />
-                <br />
-                <?php } ?>
-          </div>
+        
         </div>
     </div>
   </div>
