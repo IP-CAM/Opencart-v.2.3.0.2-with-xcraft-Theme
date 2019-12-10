@@ -147,9 +147,8 @@ li {
   background-color: #1765ca; }
 
 header .row {
-  text-align: center;
-  padding-top: 10px;
-  }
+  text-align: center; 
+  padding-top: 10px 0; }
   header .row .head-telephone {
     display: block;
     list-style: none;
@@ -236,16 +235,15 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
   .product-layout > .product-thumb:hover {
     box-shadow: #EDEDED 0 0 0 1px inset; }
   .product-layout > .product-thumb .image {
-    padding: 0 25px; }
+    padding: 0 10px; }
   .product-layout > .product-thumb .caption {
-    padding: 0 25px;
-    height: 235px; }
-    .product-layout > .product-thumb .caption h4 {
-      margin-top: 25px;
-      height: 100px !important; }
+    padding: 0 10px;
+    height: 100px; }
+    .product-layout > .product-thumb .caption h4 {    
+      height: 60px !important; }
       .product-layout > .product-thumb .caption h4 a {
         color: #000;
-        font-size: 22px;
+        font-size: 18px;
         display: block; }
         .product-layout > .product-thumb .caption h4 a:hover, .product-layout > .product-thumb .caption h4 a:focus {
           text-decoration: none;
