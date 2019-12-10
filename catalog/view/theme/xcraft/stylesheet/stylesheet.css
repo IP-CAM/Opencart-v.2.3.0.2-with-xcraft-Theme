@@ -238,14 +238,11 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
     padding: 0 10px; }
   .product-layout > .product-thumb .caption {
     padding: 0 10px;
-    height: 100px; }
-    .product-layout > .product-thumb .caption h4 {    
-      height: 60px !important; }
-      .product-layout > .product-thumb .caption h4 a {
-        color: #000;
-        font-size: 18px;
-        display: block; }
-        .product-layout > .product-thumb .caption h4 a:hover, .product-layout > .product-thumb .caption h4 a:focus {
+    height: 60px; }
+    .product-layout > .product-thumb .caption a {   
+      display: block; 
+      height: 40px !important; }     
+        .product-layout > .product-thumb .caption  a:hover, .product-layout > .product-thumb .caption h4 a:focus {
           text-decoration: none;
           color: #434343;
           transition: color 0.25s ease; }
