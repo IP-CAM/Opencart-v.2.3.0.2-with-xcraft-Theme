@@ -341,8 +341,8 @@
           <div class="product-thumb transition">
             <div class="image"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" /></a></div>
             <div class="caption">
-              <h4><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h4>
-              <p><?php echo $product['description']; ?></p>
+              <a href="<?php echo $product['href']; ?>">
+              <?php echo $product['name']; ?></a>        
               <?php if ($product['rating']) { ?>
               <div class="rating">
                 <?php for ($j = 1; $j <= 5; $j++) { ?>
