@@ -5,8 +5,8 @@
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html prefix="og: http://ogp.me/ns#" dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
 <!--<![endif]-->
-<head>
-<meta charset="UTF-8" />
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title><?php echo $title; ?></title>
@@ -49,6 +49,16 @@
   ga('create', 'UA-104126611-1', 'auto');
   ga('send', 'pageview');
 </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-31184185-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-31184185-1');
+</script>
+
 <?php echo $tc_og; ?>
 </head>
 <body class="<?php echo $class; ?>">
