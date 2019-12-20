@@ -1,11 +1,11 @@
 <?php
 
 // Heading 
-$_['heading_title']  = 'Вигоди';
-$_['custom_warranty']       = 'Гарантія якості';
+$_['heading_title']  = 'Преимущества';
+$_['custom_warranty']       = 'Гарантия качества';
 
-$_['custom_service']       = 'Відмінний сервіс';
-$_['custom_prices']       = 'Привабливі ціни';
+$_['custom_service']       = 'Отличный сервис';
+$_['custom_prices']       = 'Привлекательные цены';
 $_['custom_delivery']       = 'Доставка';
 
   
