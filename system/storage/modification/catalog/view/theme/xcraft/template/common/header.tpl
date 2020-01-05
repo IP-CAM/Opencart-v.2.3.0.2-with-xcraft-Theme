@@ -100,7 +100,7 @@ var google_remarketing_only = false;
         </div>
         <div class="col-sm-6">
        <!-- <h4 class="slogan">Делайте мир интересней вместе с инструментами нашего интернет-магазина!</h4> -->
-       <h4 class="slogan"><?php echo $text_slogan; ?></br><?php echo $text_slogan2; ?></h4>
+       <div class="slogan"><?php echo $text_slogan; ?></br><?php echo $text_slogan2; ?></div>
      </div>
             <div class="col-sm-3 inform">
           <div class="inform-item">
@@ -109,9 +109,7 @@ var google_remarketing_only = false;
                 <li><i class="glyphicon glyphicon-envelope"></i><span class=""> order@xcraft.com.ua</span></li>
               </ul>
           </div>
-          <div class="inform-item">
-              <address><?php echo $address; ?></address>
-          </div>  
+    
         
         </div>
     </div>
