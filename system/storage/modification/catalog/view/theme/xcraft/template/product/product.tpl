@@ -344,15 +344,7 @@
               <a href="<?php echo $product['href']; ?>">
               <?php echo $product['name']; ?></a>        
               <?php if ($product['rating']) { ?>
-              <div class="rating">
-                <?php for ($j = 1; $j <= 5; $j++) { ?>
-                <?php if ($product['rating'] < $j) { ?>
-                <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-1x"></i></span>
-                <?php } else { ?>
-                <span class="fa fa-stack"><i class="fa fa-star fa-stack-1x"></i><i class="fa fa-star-o fa-stack-1x"></i></span>
-                <?php } ?>
-                <?php } ?>
-              </div>
+             
               <?php } ?>
               <?php if ($product['price']) { ?>
               <p class="price">
