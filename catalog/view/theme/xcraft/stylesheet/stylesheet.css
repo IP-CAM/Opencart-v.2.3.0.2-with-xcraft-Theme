@@ -91,11 +91,10 @@
 body {
   background: #F5F5F5;
   font-family: "Nunito Sans", sans-serif; 
-  /* background: url(../../../../../image/catalog/circuit.png) #f5f5f5;
-  background-attachment: fixed;
-  background-position: -132px 100%;
+  background: url(../../../../../image/catalog/circuit.png) #f5f5f5;
+  background-position: 103% 4%;
   background-repeat: no-repeat;
-  background-size: 23%; */
+  background-size: 265px;
 
 }
 
@@ -162,12 +161,14 @@ header .row {
   text-align: center; 
   padding-top: 10px 0; }
   header .row .head-telephone {
-    color: #1765ca;
+    color: #3f91d2;
     display: block;
     list-style: none;
     margin-top: 10px;
     padding-left: 0;
-  font-size: 18px; }
+    font-size: 18px; 
+    padding: 10px 0px;
+    background: #f5f5f5;}
 header .nav-inf li:nth-child(3) {
   display: none; }
 
