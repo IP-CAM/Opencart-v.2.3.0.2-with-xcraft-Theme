@@ -82,7 +82,7 @@ var google_remarketing_only = false;
 <nav id="top">
   <div class="container">
     <?php echo $currency; ?>
-    <!--<?php echo $language; ?>-->
+    <?php echo $language; ?>
   <div class="col-sm-5 top-search">
     <?php echo $search; ?>
    </div>
