@@ -28,6 +28,9 @@ class ControllerCommonFooter extends Controller {
 			
 		$this->load->language('common/footer');
 
+		$data['popupcartext'] = $this->load->controller('extension/module/popupcart');
+	
+
 		$data['scripts'] = $this->document->getScripts('footer');
 
 		$data['text_information'] = $this->language->get('text_information');

@@ -58,7 +58,6 @@
 
   gtag('config', 'UA-31184185-1');
 </script>
-
 <?php echo $tc_og; ?>
 </head>
 <body class="<?php echo $class; ?>">
@@ -105,12 +104,13 @@ var google_remarketing_only = false;
             <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?> - отладочные платы" alt="<?php /*echo $name; */?> development board kit " class="img-responsive" /></a>
             <?php } else { ?>
             <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
-            <?php } ?>        
+            <?php } ?>
+            <p><?php echo $text_magazin; ?></p>
           </div>
         </div>
         <div class="col-sm-6">
        <!-- <h4 class="slogan">Делайте мир интересней вместе с инструментами нашего интернет-магазина!</h4> -->
-       <div class="slogan"><?php echo $text_slogan; ?></br><?php echo $text_slogan2; ?></div>
+       <h4 class="slogan"><?php echo $text_slogan; ?></br><?php echo $text_slogan2; ?></h4>
      </div>
             <div class="col-sm-3 inform">
           <div class="inform-item">
@@ -119,8 +119,17 @@ var google_remarketing_only = false;
                 <li><i class="glyphicon glyphicon-envelope"></i><span class=""> order@xcraft.com.ua</span></li>
               </ul>
           </div>
-    
-        
+          <div class="inform-item">
+                <strong><?php echo $store; ?></strong><br />
+                <address><?php echo $address; ?></address>
+          </div>  
+           <div class="inform-item our-work">  
+                <?php if ($open) { ?>
+                <!--<strong><?php echo $text_open; ?></strong><br />-->
+                <?php echo $open; ?><br />
+                <br />
+                <?php } ?>
+          </div>
         </div>
     </div>
   </div>

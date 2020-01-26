@@ -283,6 +283,10 @@ class Cart {
 					$recurring = false;
 				}
 
+
+		$manufacturer_query = $this->db->query("SELECT * FROM " . DB_PREFIX . "manufacturer m LEFT JOIN " . DB_PREFIX . "product p ON (p.manufacturer_id = m.manufacturer_id) WHERE p.product_id = '" . (int)$product_query->row['product_id'] . "'");
+		$manufacturer = $manufacturer_query->num_rows ? $manufacturer_query->row['name'] : '';
+	
 				$product_data[] = array(
 					'cart_id'         => $cart['cart_id'],
 					'product_id'      => $product_query->row['product_id'],
@@ -294,6 +298,10 @@ class Cart {
 					'download'        => $download_data,
 					'quantity'        => $cart['quantity'],
 					'minimum'         => $product_query->row['minimum'],
+
+		'maximum'         => $product_query->row['quantity'],
+		'manufacturer'    => $manufacturer,
+	
 					'subtract'        => $product_query->row['subtract'],
 					'stock'           => $stock,
 					'price'           => ($price + $option_price),

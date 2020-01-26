@@ -150,6 +150,7 @@
       </div>
       <?php } ?>
 <?php echo $microdatapro; ?>
+<?php echo $microdatapro; ?>
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>
