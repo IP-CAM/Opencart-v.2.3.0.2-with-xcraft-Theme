@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!--[if IE]><![endif]-->
-<!--[if IE 8 ]><html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>" class="ie8"><![endif]-->
-<!--[if IE 9 ]><html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>" class="ie9"><![endif]-->
+<!--[if IE 8 ]><html prefix="og: http://ogp.me/ns#" dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html prefix="og: http://ogp.me/ns#" dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>" class="ie9"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
-<html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
+<html prefix="og: http://ogp.me/ns#" dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
 <!--<![endif]-->
 <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
@@ -58,6 +58,8 @@
 
   gtag('config', 'UA-31184185-1');
 </script>
+
+<?php echo $tc_og; ?>
 </head>
 <body class="<?php echo $class; ?>">
     <!-- Google Code for xcraft.com.ua Conversion Page -->
@@ -103,13 +105,12 @@ var google_remarketing_only = false;
             <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?> - отладочные платы" alt="<?php /*echo $name; */?> development board kit " class="img-responsive" /></a>
             <?php } else { ?>
             <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
-            <?php } ?>
-            <p><?php echo $text_magazin; ?></p>
+            <?php } ?>        
           </div>
         </div>
         <div class="col-sm-6">
        <!-- <h4 class="slogan">Делайте мир интересней вместе с инструментами нашего интернет-магазина!</h4> -->
-       <h4 class="slogan"><?php echo $text_slogan; ?></br><?php echo $text_slogan2; ?></h4>
+       <div class="slogan"><?php echo $text_slogan; ?></br><?php echo $text_slogan2; ?></div>
      </div>
             <div class="col-sm-3 inform">
           <div class="inform-item">
@@ -118,17 +119,8 @@ var google_remarketing_only = false;
                 <li><i class="glyphicon glyphicon-envelope"></i><span class=""> order@xcraft.com.ua</span></li>
               </ul>
           </div>
-          <div class="inform-item">
-                <strong><?php echo $store; ?></strong><br />
-                <address><?php echo $address; ?></address>
-          </div>  
-           <div class="inform-item our-work">  
-                <?php if ($open) { ?>
-                <!--<strong><?php echo $text_open; ?></strong><br />-->
-                <?php echo $open; ?><br />
-                <br />
-                <?php } ?>
-          </div>
+    
+        
         </div>
     </div>
   </div>
