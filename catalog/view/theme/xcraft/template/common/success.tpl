@@ -11,6 +11,27 @@ var google_remarketing_only = false;
 </script>
 <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
 </script>
+
+<script src="https://apis.google.com/js/platform.js?onload=renderOptIn" async defer></script>
+
+<script>
+  window.renderOptIn = function() {
+   
+    window.gapi.load('surveyoptin', function() {
+      window.gapi.surveyoptin.render(
+        {
+          // REQUIRED FIELDS
+          "merchant_id": 117800038,
+          "order_id": "<?php echo $order_id?>",
+          "email": "<?php echo $customer_email?>",
+          "delivery_country": "ua",
+          "estimated_delivery_date":"<?php echo $estimated_delivery_date?>"        
+        });
+    });
+  }
+
+</script>
+
 <noscript>
 <div style="display:inline;">
 <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/967874041/?label=DyUJCPus4HMQ-avCzQM&amp;guid=ON&amp;script=0"/>
