@@ -29,6 +29,9 @@ class ControllerCheckoutSuccess extends Controller {
 					$data['customer_email'] = $this->session->data['guest']['email'];
 				}
 			}
+			else {
+				$data['customer_email'] = $this->session->data['guest']['email'];
+			}
 			$data['order_id'] = $this->session->data['order_id'];
 		  
 		    $data['estimated_delivery_date'] = date("Y-m-d" , time() + 4*86400);
