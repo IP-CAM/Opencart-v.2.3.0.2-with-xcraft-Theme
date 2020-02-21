@@ -18,6 +18,7 @@ class ControllerCheckoutSuccess extends Controller {
 					);
 
 					$this->model_account_activity->addActivity('order_account', $activity_data);
+					$data['customer_email'] = $this->customer->getEmail();
 				} else {
 					$activity_data = array(
 						'name'     => $this->session->data['guest']['firstname'] . ' ' . $this->session->data['guest']['lastname'],
@@ -25,10 +26,11 @@ class ControllerCheckoutSuccess extends Controller {
 					);
 
 					$this->model_account_activity->addActivity('order_guest', $activity_data);
+					$data['customer_email'] = $this->session->data['guest']['email'];
 				}
 			}
 			$data['order_id'] = $this->session->data['order_id'];
-		    $data['customer_email'] = $this->customer->getEmail();
+		  
 		    $data['estimated_delivery_date'] = date("Y-m-d" , time() + 4*86400);
 
 			unset($this->session->data['shipping_method']);
