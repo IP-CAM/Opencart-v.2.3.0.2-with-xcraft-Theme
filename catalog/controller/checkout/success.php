@@ -27,6 +27,9 @@ class ControllerCheckoutSuccess extends Controller {
 					$this->model_account_activity->addActivity('order_guest', $activity_data);
 				}
 			}
+			$data['order_id'] = $this->session->data['order_id'];
+		    $data['customer_email'] = $this->customer->getEmail();
+		    $data['estimated_delivery_date'] = date("Y-m-d" , time() + 4*86400);
 
 			unset($this->session->data['shipping_method']);
 			unset($this->session->data['shipping_methods']);
